@@ -1,0 +1,39 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "ui_font_size": 16,
+  "buffer_font_size": 20,
+  "buffer_font_weight": 370,
+  "multi_cursor_modifier": "alt",
+  "buffer_font_family": "JetBrains Mono",
+  "terminal": {
+    "font_size": 16,
+    "font_family": "JetBrains Mono",
+    "font_weight": 400
+  },
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Nightfox"
+  },
+
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace",
+          "typeCheckingMode": "strict"
+        },
+        "python": {
+          "pythonPath": "venv/bin/python"
+        }
+      }
+    }
+  }
+}
