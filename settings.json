@@ -15,7 +15,7 @@
   "terminal": {
     "font_size": 16,
     "font_family": "JetBrains Mono",
-    "font_weight": 400
+    "font_weight": 400,
   },
   "theme": {
     "mode": "system",
